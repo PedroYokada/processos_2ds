@@ -21,7 +21,7 @@ def extrato(conta):
     print("Saldo é {}".format(conta["saldo"]))
 
 
-# Importamos as funções definidas acima a partir do módulo conta
+# Importamos as funções definidas acima a partir do módulo `conta`
 from conta import cria_conta, deposita, sacar, extrato
 
 # Criamos uma conta bancária com número 123, titular "Nico", saldo inicial de 55.0 e limite de 1000.0
