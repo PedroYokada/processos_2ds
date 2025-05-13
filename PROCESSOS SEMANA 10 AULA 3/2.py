@@ -1,11 +1,11 @@
 class Livro:
-    def _init_(self, titulo, autor, ano):
+    def __init__(self, titulo, autor, ano):
         self.titulo = titulo
         self.autor = autor
         self.ano = ano
 
 class Biblioteca:
-    def _init_(self):
+    def __init__(self):
         self.livros = []
 
     def adicionar_livro(self, livro):
@@ -18,4 +18,5 @@ class Biblioteca:
 # Uso das classes
 biblioteca = Biblioteca()
 biblioteca.adicionar_livro(Livro("1984", "George Orwell", 1949))
+biblioteca.adicionar_livro(Livro("0", "Biblia", 0))
 biblioteca.listar_livros()

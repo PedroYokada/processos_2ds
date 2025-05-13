@@ -14,4 +14,5 @@ class Livro:
 # Uso das classes
 biblioteca = Biblioteca()
 biblioteca.adicionar_livro(Livro("1984", "George Orwell", 1949))
+biblioteca.adicionar_livro(Livro("2000", "Harry Potter", 2000))
 biblioteca.listar_livros()
